@@ -1,0 +1,9 @@
+This is a controller to drive a robot or something from a 3-channel RC rig.
+
+It is designed for a lawnmower and uses CH3 as a kill switch.
+
+It is designed to drive the wheels with pulses going to stepper motor drivers.
+
+Steering is by differential wheel speed.
+
+
