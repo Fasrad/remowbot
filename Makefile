@@ -3,7 +3,7 @@ MEGA=328p
 CFLAGS=-Os -std=c99 -mmcu=atmega$(MEGA)
 OBJ2HEX=/usr/bin/avr-objcopy 
 PROG=/usr/bin/avrdude
-TARGET=mowerc
+TARGET=remowbot
 #TARGET=testtroller
 
 program : $(TARGET).hex

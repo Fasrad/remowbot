@@ -19,9 +19,7 @@ Also there is an R/C receiver which is signaling on 3 channels with
 RC-type PPM. Channel 1 is throttle, CH2 is steer, CH3 is enable. 
 */
 
-
 #include <avr/io.h>
-
 
 void delay(uint16_t);
 void blink (uint8_t);
